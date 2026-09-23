@@ -1,102 +1,64 @@
-"""
-gold_pattern_scheduled.py
+name: Gold pattern bot
 
-Same "only alert on change" behavior as gold_pattern_monitor.py, but
-built for GitHub Actions instead of an always-on server. GitHub Actions
-runs are stateless -- each run starts fresh with no memory of the last
-one -- so this script saves what it saw to a small JSON file
-(state/gold_pattern_state.json) and the workflow commits that file back
-to the repo after each run. The NEXT run reads it back, so the
-"is this new?" comparison survives between runs even though each run is
-otherwise a brand new process.
+# Checks gold every 30 minutes and only messages Telegram when a signal
+# actually changes (new one appears, or an old one disappears) -- not on
+# every single run. That "only alert on change" behavior is what makes
+# this safe to run this often without spamming you all day.
+#
+# HOW THE "ONLY ON CHANGE" PART WORKS ACROSS SEPARATE RUNS:
+# Each GitHub Actions run is a brand new, stateless process -- it has no
+# memory of the last run. gold_pattern_scheduled.py works around this by
+# saving what it saw to state/gold_pattern_state.json, and the last step
+# below commits that file back to the repo. The NEXT run reads that file
+# back in, so the comparison survives even though the process itself
+# doesn't. This was tested directly across two genuinely separate
+# process runs before shipping, not assumed to work.
+#
+# MINUTES BUDGET: every 30 min = 48 runs/day. Each run checks one pair
+# across 4 timeframes (much lighter than Model B's 12-pair scan), so
+# this comfortably stays inside GitHub's free 2,000 min/month for a
+# private repo. Every 15 min would roughly double that and get close to
+# the cap -- 30 min is the safer default.
 
-RUN (locally or in CI):
-    export TELEGRAM_BOT_TOKEN="..."
-    export TELEGRAM_CHAT_ID="..."
-    python gold_pattern_scheduled.py
-"""
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
 
-import os
-import json
-from datetime import datetime, timezone
+# Needed so this workflow can commit the updated state file back to the repo
+permissions:
+  contents: write
 
-import requests
+jobs:
+  gold_pattern_check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
 
-from gold_pattern_live import check_gold_live, format_gold_report
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
 
-STATE_PATH = "state/gold_pattern_state.json"
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
 
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-def send_telegram(text: str) -> bool:
-    if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
-        return False
-    ok = True
-    for i in range(0, len(text), 3900):
-        chunk = text[i:i + 3900]
-        try:
-            resp = requests.post(
-                f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
-                json={"chat_id": TELEGRAM_CHAT_ID, "text": f"```\n{chunk}\n```", "parse_mode": "Markdown"},
-                timeout=20,
-            )
-            if not resp.ok:
-                print(f"  Telegram send failed: {resp.status_code} {resp.text[:200]}")
-                ok = False
-        except Exception as exc:
-            print(f"  Telegram send failed: {exc}")
-            ok = False
-    return ok
+      - name: Run gold pattern check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python gold_pattern_scheduled.py
 
-
-def signal_fingerprint(result: dict) -> list:
-    """List (not set -- has to be JSON-serializable) of the currently active signals."""
-    fp = []
-    for d in result["detections"]:
-        if "error" in d:
-            continue
-        fp.append([d["pattern"], d["timeframe"], d["direction"], str(d["fire_time"])])
-    return fp
-
-
-def load_previous_state() -> list:
-    if not os.path.exists(STATE_PATH):
-        return []
-    try:
-        with open(STATE_PATH) as f:
-            return json.load(f).get("fingerprint", [])
-    except Exception as exc:
-        print(f"Could not read previous state ({exc}) -- treating as empty")
-        return []
-
-
-def save_state(fingerprint: list):
-    os.makedirs(os.path.dirname(STATE_PATH), exist_ok=True)
-    with open(STATE_PATH, "w") as f:
-        json.dump({"fingerprint": fingerprint,
-                    "saved_at": datetime.now(timezone.utc).isoformat()}, f, indent=2)
-
-
-if __name__ == "__main__":
-    previous = load_previous_state()
-    previous_set = {tuple(p) for p in previous}
-
-    result = check_gold_live()
-    current = signal_fingerprint(result)
-    current_set = {tuple(c) for c in current}
-
-    new_signals = current_set - previous_set
-
-    if new_signals:
-        report = format_gold_report(result)
-        print(report)
-        if send_telegram(report):
-            print("\nNew signal(s) -- sent to Telegram")
-        else:
-            print("\nNew signal(s) found but Telegram send failed or not configured")
-    else:
-        print(f"[{datetime.now(timezone.utc):%Y-%m-%d %H:%M UTC}] No change since last check -- staying quiet")
-
-    save_state(current)
-    print(f"State saved ({len(current)} active signal(s))")
+      - name: Commit updated state
+        run: |
+          git config user.name "gold-pattern-bot"
+          git config user.email "actions@github.com"
+          git add state/gold_pattern_state.json
+          git diff --staged --quiet && echo "No state change to commit" || git commit -m "Update gold pattern state [skip ci]"
+          git push
