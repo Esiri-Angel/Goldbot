@@ -1,0 +1,38 @@
+name: gold-study
+
+on:
+  schedule:
+    # every 6 hours, every day
+    - cron: "17 0,6,12,18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install packages
+        run: pip install -r requirements.txt
+
+      - name: Run gold study
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: python gold_study.py
+
+      - name: Save study data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add study/
+          git diff --staged --quiet || (git commit -m "update study data" && git pull --rebase && git push)
