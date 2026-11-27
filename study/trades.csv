@@ -117,10 +117,10 @@ rsi,RSI14 (30/70),15m,long,2026-11-12T07:15:00+00:00,2026-11-12T07:30:00+00:00,-
 pattern,doji,15m,long,2026-11-12T07:15:00+00:00,2026-11-12T07:30:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 pattern,bullish_engulfing,5m,long,2026-11-12T07:15:00+00:00,2026-11-12T07:20:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 pattern,doji,15m,short,2026-11-12T07:15:00+00:00,2026-11-12T07:30:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,normal,False
-pattern,three_black_crows,15m,short,2026-11-12T07:30:00+00:00,2026-11-12T07:45:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,normal,False
+rsi,RSI14 (30/70),15m,long,2026-11-12T07:30:00+00:00,2026-11-12T07:45:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 rsi,RSI7 (20/80),15m,long,2026-11-12T07:30:00+00:00,2026-11-12T07:45:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 rsi,RSI7 (30/70),5m,long,2026-11-12T07:30:00+00:00,2026-11-12T07:35:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
-rsi,RSI14 (30/70),15m,long,2026-11-12T07:30:00+00:00,2026-11-12T07:45:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
+pattern,three_black_crows,15m,short,2026-11-12T07:30:00+00:00,2026-11-12T07:45:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,normal,False
 pattern,three_black_crows,5m,short,2026-11-12T07:30:00+00:00,2026-11-12T07:35:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,normal,False
 pattern,bearish_engulfing,15m,short,2026-11-12T07:30:00+00:00,2026-11-12T07:45:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,normal,False
 pattern,bullish_engulfing,15m,long,2026-11-12T07:45:00+00:00,2026-11-12T08:00:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
@@ -192,9 +192,9 @@ pattern,doji,5m,short,2026-11-12T10:20:00+00:00,2026-11-12T10:25:00+00:00,-1.02,
 ma,MA 10/30 cross,5m,long,2026-11-12T10:20:00+00:00,2026-11-12T10:25:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 pattern,doji,5m,long,2026-11-12T10:20:00+00:00,2026-11-12T10:25:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 pattern,evening_star,5m,short,2026-11-12T10:25:00+00:00,2026-11-12T10:30:00+00:00,-1.02,London (07-12 UTC),Thursday,with,with,normal,False
+pattern,three_white_soldiers,30m,long,2026-11-12T10:30:00+00:00,2026-11-12T11:00:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 pattern,bullish_engulfing,5m,long,2026-11-12T10:30:00+00:00,2026-11-12T10:35:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 pattern,bullish_engulfing,15m,long,2026-11-12T10:30:00+00:00,2026-11-12T10:45:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,high,False
-pattern,three_white_soldiers,30m,long,2026-11-12T10:30:00+00:00,2026-11-12T11:00:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,normal,False
 rsi,RSI7 (30/70),5m,short,2026-11-12T10:40:00+00:00,2026-11-12T10:45:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,calm,False
 ma,MA 20/30 cross,5m,long,2026-11-12T10:45:00+00:00,2026-11-12T10:50:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
 pattern,doji,5m,long,2026-11-12T10:45:00+00:00,2026-11-12T10:50:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
@@ -220,8 +220,8 @@ pattern,doji,5m,short,2026-11-12T11:55:00+00:00,2026-11-12T12:00:00+00:00,-1.02,
 pattern,doji,5m,long,2026-11-12T11:55:00+00:00,2026-11-12T12:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,calm,False
 ma,MA 10/30 cross,5m,short,2026-11-12T11:55:00+00:00,2026-11-12T12:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,calm,False
 pattern,three_black_crows,30m,short,2026-11-12T12:00:00+00:00,2026-11-12T12:30:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,normal,False
-pattern,three_black_crows,15m,short,2026-11-12T12:00:00+00:00,2026-11-12T12:15:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,normal,False
 pattern,three_black_crows,4h,short,2026-11-12T12:00:00+00:00,2026-11-12T16:00:00+00:00,1.98,New York (16-21 UTC),Thursday,with,with,normal,False
+pattern,three_black_crows,15m,short,2026-11-12T12:00:00+00:00,2026-11-12T12:15:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,normal,False
 pattern,doji,15m,long,2026-11-12T12:00:00+00:00,2026-11-12T12:15:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,normal,False
 rsi,RSI14 (30/70),4h,long,2026-11-12T12:00:00+00:00,2026-11-12T16:00:00+00:00,-1.02,New York (16-21 UTC),Thursday,against,against,normal,False
 rsi,RSI14 (25/75),4h,long,2026-11-12T12:00:00+00:00,2026-11-12T16:00:00+00:00,-1.02,New York (16-21 UTC),Thursday,against,against,normal,False
@@ -277,8 +277,8 @@ pattern,double_top,5m,short,2026-11-12T13:10:00+00:00,2026-11-12T13:15:00+00:00,
 rsi,RSI14 (25/75),15m,long,2026-11-12T13:15:00+00:00,2026-11-12T13:30:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,normal,False
 pattern,double_top,15m,short,2026-11-12T13:15:00+00:00,2026-11-12T13:30:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,normal,False
 rsi,RSI21 (30/70),5m,long,2026-11-12T13:20:00+00:00,2026-11-12T13:25:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
-pattern,head_and_shoulders,5m,short,2026-11-12T13:20:00+00:00,2026-11-12T13:25:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,double_top,5m,short,2026-11-12T13:20:00+00:00,2026-11-12T13:25:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
+pattern,head_and_shoulders,5m,short,2026-11-12T13:20:00+00:00,2026-11-12T13:25:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 rsi,RSI14 (25/75),5m,long,2026-11-12T13:20:00+00:00,2026-11-12T13:25:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
 rsi,RSI7 (20/80),5m,long,2026-11-12T13:20:00+00:00,2026-11-12T13:25:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
 rsi,RSI21 (25/75),5m,long,2026-11-12T13:25:00+00:00,2026-11-12T13:30:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
@@ -298,9 +298,9 @@ pattern,head_and_shoulders,5m,short,2026-11-12T13:40:00+00:00,2026-11-12T13:45:0
 pattern,head_and_shoulders,15m,short,2026-11-12T13:45:00+00:00,2026-11-12T14:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,double_top,15m,short,2026-11-12T13:45:00+00:00,2026-11-12T14:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,double_top,5m,short,2026-11-12T13:45:00+00:00,2026-11-12T13:50:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
-pattern,head_and_shoulders,5m,short,2026-11-12T13:50:00+00:00,2026-11-12T13:55:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
-rsi,RSI21 (20/80),5m,long,2026-11-12T13:50:00+00:00,2026-11-12T13:55:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
 pattern,double_top,5m,short,2026-11-12T13:50:00+00:00,2026-11-12T13:55:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
+rsi,RSI21 (20/80),5m,long,2026-11-12T13:50:00+00:00,2026-11-12T13:55:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
+pattern,head_and_shoulders,5m,short,2026-11-12T13:50:00+00:00,2026-11-12T13:55:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,doji,5m,short,2026-11-12T14:00:00+00:00,2026-11-12T14:05:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,three_black_crows,1h,short,2026-11-12T14:00:00+00:00,2026-11-12T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,doji,5m,long,2026-11-12T14:00:00+00:00,2026-11-12T14:05:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
@@ -311,8 +311,8 @@ pattern,evening_star,5m,short,2026-11-12T14:05:00+00:00,2026-11-12T14:10:00+00:0
 pattern,bearish_engulfing,5m,short,2026-11-12T14:05:00+00:00,2026-11-12T14:10:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,doji,5m,short,2026-11-12T14:20:00+00:00,2026-11-12T14:25:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 pattern,doji,5m,long,2026-11-12T14:20:00+00:00,2026-11-12T14:25:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
-pattern,doji,5m,long,2026-11-12T14:25:00+00:00,2026-11-12T14:30:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
 pattern,doji,5m,short,2026-11-12T14:25:00+00:00,2026-11-12T14:30:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
+pattern,doji,5m,long,2026-11-12T14:25:00+00:00,2026-11-12T14:30:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
 pattern,bearish_engulfing,15m,short,2026-11-12T14:30:00+00:00,2026-11-12T14:45:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
 rsi,RSI21 (30/70),15m,long,2026-11-12T14:30:00+00:00,2026-11-12T14:45:00+00:00,-1.02,London/NY overlap (12-16 UTC),Thursday,against,against,high,False
 pattern,three_black_crows,5m,short,2026-11-12T14:30:00+00:00,2026-11-12T14:35:00+00:00,1.98,London/NY overlap (12-16 UTC),Thursday,with,with,high,False
@@ -554,10 +554,10 @@ pattern,bullish_engulfing,5m,long,2026-11-13T02:55:00+00:00,2026-11-13T03:00:00+
 pattern,three_white_soldiers,1h,long,2026-11-13T03:00:00+00:00,2026-11-13T04:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 ma,MA 10/30 cross,30m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:30:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 pattern,three_white_soldiers,15m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:15:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
-pattern,doji,30m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:30:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
+pattern,doji,30m,short,2026-11-13T03:00:00+00:00,2026-11-13T03:30:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 pattern,shooting_star,15m,short,2026-11-13T03:00:00+00:00,2026-11-13T03:15:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 pattern,inverse_head_and_shoulders,15m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:15:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
-pattern,doji,30m,short,2026-11-13T03:00:00+00:00,2026-11-13T03:30:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
+pattern,doji,30m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:30:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 pattern,double_bottom,5m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:05:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,high,False
 pattern,double_bottom,15m,long,2026-11-13T03:00:00+00:00,2026-11-13T03:15:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 pattern,doji,5m,short,2026-11-13T03:05:00+00:00,2026-11-13T03:10:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
@@ -590,9 +590,9 @@ ma,MA 20/30 cross,5m,short,2026-11-13T05:05:00+00:00,2026-11-13T05:10:00+00:00,1
 ma,MA 20/30 cross,5m,short,2026-11-13T05:10:00+00:00,2026-11-13T05:15:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 ma,MA 5/30 cross,5m,long,2026-11-13T05:15:00+00:00,2026-11-13T05:20:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 rsi,RSI7 (30/70),5m,short,2026-11-13T05:15:00+00:00,2026-11-13T05:20:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
-rsi,RSI14 (30/70),15m,short,2026-11-13T05:15:00+00:00,2026-11-13T05:30:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
-pattern,bullish_engulfing,5m,long,2026-11-13T05:15:00+00:00,2026-11-13T05:20:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 rsi,RSI7 (25/75),15m,short,2026-11-13T05:15:00+00:00,2026-11-13T05:30:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
+pattern,bullish_engulfing,5m,long,2026-11-13T05:15:00+00:00,2026-11-13T05:20:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
+rsi,RSI14 (30/70),15m,short,2026-11-13T05:15:00+00:00,2026-11-13T05:30:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 pattern,double_top,15m,short,2026-11-13T05:30:00+00:00,2026-11-13T05:45:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,calm,False
 pattern,shooting_star,5m,short,2026-11-13T05:35:00+00:00,2026-11-13T05:40:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 ma,MA 20/50 cross,5m,short,2026-11-13T05:40:00+00:00,2026-11-13T05:45:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
@@ -600,12 +600,12 @@ pattern,double_top,5m,short,2026-11-13T05:40:00+00:00,2026-11-13T05:45:00+00:00,
 ma,MA 5/30 cross,5m,short,2026-11-13T05:40:00+00:00,2026-11-13T05:45:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 ma,MA 10/50 cross,5m,short,2026-11-13T05:45:00+00:00,2026-11-13T05:50:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
 ma,MA 5/50 cross,5m,short,2026-11-13T05:45:00+00:00,2026-11-13T05:50:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
-pattern,doji,15m,short,2026-11-13T05:45:00+00:00,2026-11-13T06:00:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
-pattern,doji,15m,long,2026-11-13T05:45:00+00:00,2026-11-13T06:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 ma,MA 5/30 cross,5m,short,2026-11-13T05:45:00+00:00,2026-11-13T05:50:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
+pattern,doji,15m,long,2026-11-13T05:45:00+00:00,2026-11-13T06:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
+pattern,head_and_shoulders,5m,short,2026-11-13T05:45:00+00:00,2026-11-13T05:50:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
 pattern,hammer,15m,long,2026-11-13T05:45:00+00:00,2026-11-13T06:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 pattern,double_top,5m,short,2026-11-13T05:45:00+00:00,2026-11-13T05:50:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
-pattern,head_and_shoulders,5m,short,2026-11-13T05:45:00+00:00,2026-11-13T05:50:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
+pattern,doji,15m,short,2026-11-13T05:45:00+00:00,2026-11-13T06:00:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
 ma,MA 10/30 cross,5m,short,2026-11-13T05:50:00+00:00,2026-11-13T05:55:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
 ma,MA 5/50 cross,5m,short,2026-11-13T05:50:00+00:00,2026-11-13T05:55:00+00:00,-1.02,Asia (00-07 UTC),Friday,with,with,high,False
 pattern,double_top,15m,short,2026-11-13T06:00:00+00:00,2026-11-13T06:15:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,normal,False
@@ -748,8 +748,8 @@ pattern,shooting_star,15m,short,2026-11-13T13:30:00+00:00,2026-11-13T13:45:00+00
 pattern,inverse_head_and_shoulders,5m,long,2026-11-13T13:30:00+00:00,2026-11-13T13:35:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
 ma,MA 20/30 cross,30m,short,2026-11-13T13:30:00+00:00,2026-11-13T14:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,with,with,normal,False
 pattern,double_bottom,5m,long,2026-11-13T13:30:00+00:00,2026-11-13T13:35:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
-pattern,bullish_engulfing,5m,long,2026-11-13T13:30:00+00:00,2026-11-13T13:35:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
 pattern,bullish_engulfing,15m,long,2026-11-13T13:30:00+00:00,2026-11-13T13:45:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,normal,False
+pattern,bullish_engulfing,5m,long,2026-11-13T13:30:00+00:00,2026-11-13T13:35:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
 rsi,RSI7 (30/70),5m,short,2026-11-13T13:30:00+00:00,2026-11-13T13:35:00+00:00,1.98,London/NY overlap (12-16 UTC),Friday,with,with,high,False
 ma,MA 20/30 cross,5m,short,2026-11-13T13:35:00+00:00,2026-11-13T13:40:00+00:00,1.98,London/NY overlap (12-16 UTC),Friday,with,with,high,False
 pattern,double_bottom,5m,long,2026-11-13T13:35:00+00:00,2026-11-13T13:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
@@ -1155,8 +1155,8 @@ pattern,doji,30m,long,2026-11-16T11:30:00+00:00,2026-11-16T12:00:00+00:00,-1.02,
 ma,MA 20/30 cross,15m,long,2026-11-16T11:30:00+00:00,2026-11-16T11:45:00+00:00,-1.02,London (07-12 UTC),Monday,against,against,calm,False
 pattern,bearish_engulfing,5m,short,2026-11-16T11:35:00+00:00,2026-11-16T11:40:00+00:00,1.98,London (07-12 UTC),Monday,with,with,calm,False
 rsi,RSI7 (30/70),15m,short,2026-11-16T11:45:00+00:00,2026-11-16T12:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,with,with,calm,False
-pattern,shooting_star,15m,short,2026-11-16T11:45:00+00:00,2026-11-16T12:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,with,with,calm,False
 pattern,bullish_engulfing,5m,long,2026-11-16T11:45:00+00:00,2026-11-16T11:50:00+00:00,-1.02,London (07-12 UTC),Monday,against,against,calm,False
+pattern,shooting_star,15m,short,2026-11-16T11:45:00+00:00,2026-11-16T12:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,with,with,calm,False
 pattern,bearish_engulfing,5m,short,2026-11-16T11:55:00+00:00,2026-11-16T12:00:00+00:00,1.98,London/NY overlap (12-16 UTC),Monday,with,with,calm,False
 pattern,evening_star,5m,short,2026-11-16T11:55:00+00:00,2026-11-16T12:00:00+00:00,1.98,London/NY overlap (12-16 UTC),Monday,with,with,calm,False
 ma,MA 5/30 cross,30m,long,2026-11-16T12:00:00+00:00,2026-11-16T12:30:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
@@ -1205,8 +1205,8 @@ pattern,inverse_head_and_shoulders,15m,long,2026-11-16T14:30:00+00:00,2026-11-16
 ma,MA 10/30 cross,30m,long,2026-11-16T14:30:00+00:00,2026-11-16T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,calm,False
 pattern,double_bottom,5m,long,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
 ma,MA 5/30 cross,5m,long,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
-pattern,three_white_soldiers,5m,long,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
 rsi,RSI7 (25/75),5m,short,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,1.98,London/NY overlap (12-16 UTC),Monday,with,with,normal,False
+pattern,three_white_soldiers,5m,long,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
 rsi,RSI7 (30/70),5m,short,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,1.98,London/NY overlap (12-16 UTC),Monday,with,with,normal,False
 pattern,inverse_head_and_shoulders,5m,long,2026-11-16T14:35:00+00:00,2026-11-16T14:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
 ma,MA 5/50 cross,5m,long,2026-11-16T14:40:00+00:00,2026-11-16T14:45:00+00:00,-1.02,London/NY overlap (12-16 UTC),Monday,against,against,normal,False
@@ -1260,8 +1260,8 @@ pattern,bullish_engulfing,5m,long,2026-11-16T16:25:00+00:00,2026-11-16T16:30:00+
 ma,MA 20/100 cross,5m,short,2026-11-16T16:25:00+00:00,2026-11-16T16:30:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,normal,False
 ma,MA 5/30 cross,30m,short,2026-11-16T16:30:00+00:00,2026-11-16T17:00:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,normal,False
 pattern,bullish_engulfing,30m,long,2026-11-16T16:30:00+00:00,2026-11-16T17:00:00+00:00,-1.02,New York (16-21 UTC),Monday,against,against,normal,False
-pattern,bearish_engulfing,5m,short,2026-11-16T16:30:00+00:00,2026-11-16T16:35:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,normal,False
 pattern,bearish_engulfing,15m,short,2026-11-16T16:30:00+00:00,2026-11-16T16:45:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,normal,False
+pattern,bearish_engulfing,5m,short,2026-11-16T16:30:00+00:00,2026-11-16T16:35:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,normal,False
 pattern,doji,5m,short,2026-11-16T16:35:00+00:00,2026-11-16T16:40:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,normal,False
 pattern,doji,5m,long,2026-11-16T16:35:00+00:00,2026-11-16T16:40:00+00:00,1.98,New York (16-21 UTC),Monday,against,against,normal,False
 rsi,RSI7 (30/70),5m,long,2026-11-16T16:35:00+00:00,2026-11-16T16:40:00+00:00,1.98,New York (16-21 UTC),Monday,against,against,normal,False
@@ -1448,8 +1448,8 @@ ma,MA 20/30 cross,15m,long,2026-11-17T01:45:00+00:00,2026-11-17T02:00:00+00:00,-
 ma,MA 5/50 cross,15m,long,2026-11-17T02:00:00+00:00,2026-11-17T02:15:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
 ma,MA 20/30 cross,15m,long,2026-11-17T02:00:00+00:00,2026-11-17T02:15:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
 pattern,doji,5m,short,2026-11-17T02:00:00+00:00,2026-11-17T02:05:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,high,False
-ma,MA 10/100 cross,5m,long,2026-11-17T02:05:00+00:00,2026-11-17T02:10:00+00:00,1.98,Asia (00-07 UTC),Tuesday,against,against,high,False
 ma,MA 10/30 cross,5m,long,2026-11-17T02:05:00+00:00,2026-11-17T02:10:00+00:00,1.98,Asia (00-07 UTC),Tuesday,against,against,high,False
+ma,MA 10/100 cross,5m,long,2026-11-17T02:05:00+00:00,2026-11-17T02:10:00+00:00,1.98,Asia (00-07 UTC),Tuesday,against,against,high,False
 rsi,RSI7 (30/70),5m,short,2026-11-17T02:10:00+00:00,2026-11-17T02:15:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,high,False
 pattern,bearish_engulfing,15m,short,2026-11-17T02:15:00+00:00,2026-11-17T02:30:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
 rsi,RSI7 (30/70),5m,short,2026-11-17T02:15:00+00:00,2026-11-17T02:20:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,high,False
@@ -1457,9 +1457,9 @@ pattern,bearish_engulfing,5m,short,2026-11-17T02:20:00+00:00,2026-11-17T02:25:00
 ma,MA 20/30 cross,5m,long,2026-11-17T02:25:00+00:00,2026-11-17T02:30:00+00:00,1.98,Asia (00-07 UTC),Tuesday,against,against,high,False
 ma,MA 5/100 cross,15m,long,2026-11-17T02:30:00+00:00,2026-11-17T02:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
 pattern,bullish_engulfing,30m,long,2026-11-17T02:30:00+00:00,2026-11-17T03:00:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
-ma,MA 20/30 cross,15m,short,2026-11-17T02:30:00+00:00,2026-11-17T02:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
-pattern,shooting_star,15m,short,2026-11-17T02:30:00+00:00,2026-11-17T02:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
 ma,MA 20/30 cross,5m,long,2026-11-17T02:30:00+00:00,2026-11-17T02:35:00+00:00,1.98,Asia (00-07 UTC),Tuesday,against,against,high,False
+pattern,shooting_star,15m,short,2026-11-17T02:30:00+00:00,2026-11-17T02:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
+ma,MA 20/30 cross,15m,short,2026-11-17T02:30:00+00:00,2026-11-17T02:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
 pattern,bearish_engulfing,5m,short,2026-11-17T02:40:00+00:00,2026-11-17T02:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,high,False
 ma,MA 20/30 cross,15m,long,2026-11-17T02:45:00+00:00,2026-11-17T03:00:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
 ma,MA 10/50 cross,15m,long,2026-11-17T02:45:00+00:00,2026-11-17T03:00:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
@@ -1479,8 +1479,8 @@ rsi,RSI7 (30/70),5m,short,2026-11-17T03:05:00+00:00,2026-11-17T03:10:00+00:00,-1
 pattern,double_bottom,5m,long,2026-11-17T03:05:00+00:00,2026-11-17T03:10:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,high,False
 pattern,inverse_head_and_shoulders,5m,long,2026-11-17T03:05:00+00:00,2026-11-17T03:10:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,high,False
 pattern,hammer,5m,long,2026-11-17T03:15:00+00:00,2026-11-17T03:20:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,high,False
-pattern,doji,5m,short,2026-11-17T03:15:00+00:00,2026-11-17T03:20:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
 pattern,doji,5m,long,2026-11-17T03:15:00+00:00,2026-11-17T03:20:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
+pattern,doji,5m,short,2026-11-17T03:15:00+00:00,2026-11-17T03:20:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,normal,False
 ma,MA 10/100 cross,15m,long,2026-11-17T03:15:00+00:00,2026-11-17T03:30:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
 rsi,RSI7 (30/70),5m,short,2026-11-17T03:20:00+00:00,2026-11-17T03:25:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,with,with,high,False
 ma,MA 20/50 cross,15m,long,2026-11-17T03:30:00+00:00,2026-11-17T03:45:00+00:00,-1.02,Asia (00-07 UTC),Tuesday,against,against,normal,False
@@ -1734,20 +1734,20 @@ pattern,three_white_soldiers,5m,long,2026-11-17T15:40:00+00:00,2026-11-17T15:45:
 pattern,bearish_engulfing,5m,short,2026-11-17T15:45:00+00:00,2026-11-17T15:50:00+00:00,1.98,London/NY overlap (12-16 UTC),Tuesday,with,with,high,False
 ma,MA 10/30 cross,15m,long,2026-11-17T15:45:00+00:00,2026-11-17T16:00:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
 pattern,bearish_engulfing,5m,short,2026-11-17T15:55:00+00:00,2026-11-17T16:00:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
-pattern,bearish_engulfing,4h,short,2026-11-17T16:00:00+00:00,2026-11-17T20:00:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
+pattern,bearish_engulfing,30m,short,2026-11-17T16:00:00+00:00,2026-11-17T16:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
 ma,MA 20/30 cross,15m,long,2026-11-17T16:00:00+00:00,2026-11-17T16:15:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
 ma,MA 5/30 cross,30m,long,2026-11-17T16:00:00+00:00,2026-11-17T16:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,normal,False
 ma,MA 5/50 cross,30m,long,2026-11-17T16:00:00+00:00,2026-11-17T16:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,normal,False
 ma,MA 10/100 cross,15m,long,2026-11-17T16:00:00+00:00,2026-11-17T16:15:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
-pattern,bearish_engulfing,30m,short,2026-11-17T16:00:00+00:00,2026-11-17T16:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
+pattern,bearish_engulfing,4h,short,2026-11-17T16:00:00+00:00,2026-11-17T20:00:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
 ma,MA 10/50 cross,15m,long,2026-11-17T16:15:00+00:00,2026-11-17T16:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
 pattern,three_black_crows,15m,short,2026-11-17T16:15:00+00:00,2026-11-17T16:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
 pattern,doji,5m,long,2026-11-17T16:20:00+00:00,2026-11-17T16:25:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
 pattern,doji,5m,short,2026-11-17T16:20:00+00:00,2026-11-17T16:25:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
 pattern,bullish_engulfing,5m,long,2026-11-17T16:25:00+00:00,2026-11-17T16:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
 pattern,shooting_star,5m,short,2026-11-17T16:25:00+00:00,2026-11-17T16:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
-pattern,doji,5m,short,2026-11-17T16:25:00+00:00,2026-11-17T16:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
 pattern,doji,5m,long,2026-11-17T16:25:00+00:00,2026-11-17T16:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
+pattern,doji,5m,short,2026-11-17T16:25:00+00:00,2026-11-17T16:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
 pattern,shooting_star,5m,short,2026-11-17T16:35:00+00:00,2026-11-17T16:40:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
 pattern,three_white_soldiers,5m,long,2026-11-17T16:35:00+00:00,2026-11-17T16:40:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,high,False
 pattern,bearish_engulfing,5m,short,2026-11-17T16:40:00+00:00,2026-11-17T16:45:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,high,False
@@ -1807,8 +1807,8 @@ pattern,three_black_crows,5m,short,2026-11-17T18:50:00+00:00,2026-11-17T18:55:00
 pattern,shooting_star,5m,short,2026-11-17T18:55:00+00:00,2026-11-17T19:00:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,calm,False
 ma,MA 20/100 cross,5m,short,2026-11-17T18:55:00+00:00,2026-11-17T19:00:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,calm,False
 ma,MA 10/100 cross,15m,short,2026-11-17T19:00:00+00:00,2026-11-17T19:15:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
-pattern,doji,30m,long,2026-11-17T19:00:00+00:00,2026-11-17T19:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,normal,False
 pattern,doji,30m,short,2026-11-17T19:00:00+00:00,2026-11-17T19:30:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
+pattern,doji,30m,long,2026-11-17T19:00:00+00:00,2026-11-17T19:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,normal,False
 ma,MA 10/30 cross,15m,short,2026-11-17T19:00:00+00:00,2026-11-17T19:15:00+00:00,1.98,New York (16-21 UTC),Tuesday,with,with,normal,False
 pattern,head_and_shoulders,5m,short,2026-11-17T19:00:00+00:00,2026-11-17T19:05:00+00:00,-1.02,New York (16-21 UTC),Tuesday,with,with,calm,False
 pattern,double_top,5m,short,2026-11-17T19:00:00+00:00,2026-11-17T19:05:00+00:00,-1.02,New York (16-21 UTC),Tuesday,with,with,calm,False
@@ -1991,9 +1991,9 @@ pattern,doji,5m,short,2026-11-18T01:45:00+00:00,2026-11-18T01:50:00+00:00,1.98,A
 pattern,doji,15m,short,2026-11-18T01:45:00+00:00,2026-11-18T02:00:00+00:00,1.98,Asia (00-07 UTC),Wednesday,with,with,normal,False
 pattern,doji,15m,long,2026-11-18T01:45:00+00:00,2026-11-18T02:00:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,normal,False
 pattern,doji,5m,long,2026-11-18T01:45:00+00:00,2026-11-18T01:50:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
-pattern,doji,5m,long,2026-11-18T01:50:00+00:00,2026-11-18T01:55:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
-pattern,double_top,5m,short,2026-11-18T01:50:00+00:00,2026-11-18T01:55:00+00:00,1.98,Asia (00-07 UTC),Wednesday,with,with,high,False
 pattern,doji,5m,short,2026-11-18T01:50:00+00:00,2026-11-18T01:55:00+00:00,1.98,Asia (00-07 UTC),Wednesday,with,with,high,False
+pattern,double_top,5m,short,2026-11-18T01:50:00+00:00,2026-11-18T01:55:00+00:00,1.98,Asia (00-07 UTC),Wednesday,with,with,high,False
+pattern,doji,5m,long,2026-11-18T01:50:00+00:00,2026-11-18T01:55:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
 pattern,morning_star,5m,long,2026-11-18T01:55:00+00:00,2026-11-18T02:00:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
 rsi,RSI7 (30/70),5m,long,2026-11-18T02:00:00+00:00,2026-11-18T02:05:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
 rsi,RSI14 (30/70),5m,long,2026-11-18T02:00:00+00:00,2026-11-18T02:05:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
@@ -2120,9 +2120,9 @@ rsi,RSI7 (30/70),5m,long,2026-11-18T07:00:00+00:00,2026-11-18T07:05:00+00:00,-1.
 rsi,RSI14 (25/75),15m,long,2026-11-18T07:00:00+00:00,2026-11-18T07:15:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
 rsi,RSI7 (20/80),15m,long,2026-11-18T07:15:00+00:00,2026-11-18T07:30:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
 rsi,RSI21 (25/75),15m,long,2026-11-18T07:15:00+00:00,2026-11-18T07:30:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
-pattern,doji,5m,short,2026-11-18T07:20:00+00:00,2026-11-18T07:25:00+00:00,1.98,London (07-12 UTC),Wednesday,with,with,normal,False
-pattern,hammer,5m,long,2026-11-18T07:20:00+00:00,2026-11-18T07:25:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
 pattern,doji,5m,long,2026-11-18T07:20:00+00:00,2026-11-18T07:25:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
+pattern,hammer,5m,long,2026-11-18T07:20:00+00:00,2026-11-18T07:25:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
+pattern,doji,5m,short,2026-11-18T07:20:00+00:00,2026-11-18T07:25:00+00:00,1.98,London (07-12 UTC),Wednesday,with,with,normal,False
 rsi,RSI7 (30/70),5m,long,2026-11-18T07:25:00+00:00,2026-11-18T07:30:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,calm,False
 rsi,RSI7 (30/70),5m,long,2026-11-18T07:30:00+00:00,2026-11-18T07:35:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,calm,False
 rsi,RSI14 (20/80),15m,long,2026-11-18T07:30:00+00:00,2026-11-18T07:45:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
@@ -2390,8 +2390,8 @@ pattern,three_black_crows,15m,short,2026-11-18T19:15:00+00:00,2026-11-18T19:30:0
 pattern,double_top,5m,short,2026-11-18T19:15:00+00:00,2026-11-18T19:20:00+00:00,-1.02,New York (16-21 UTC),Wednesday,with,with,calm,False
 pattern,double_top,15m,short,2026-11-18T19:15:00+00:00,2026-11-18T19:30:00+00:00,-1.02,New York (16-21 UTC),Wednesday,with,with,normal,False
 pattern,shooting_star,5m,short,2026-11-18T19:20:00+00:00,2026-11-18T19:25:00+00:00,-1.02,New York (16-21 UTC),Wednesday,with,with,calm,False
-pattern,doji,5m,long,2026-11-18T19:25:00+00:00,2026-11-18T19:30:00+00:00,-1.02,New York (16-21 UTC),Wednesday,against,against,calm,False
 pattern,doji,5m,short,2026-11-18T19:25:00+00:00,2026-11-18T19:30:00+00:00,-1.02,New York (16-21 UTC),Wednesday,with,with,calm,False
+pattern,doji,5m,long,2026-11-18T19:25:00+00:00,2026-11-18T19:30:00+00:00,-1.02,New York (16-21 UTC),Wednesday,against,against,calm,False
 rsi,RSI14 (30/70),5m,long,2026-11-18T19:30:00+00:00,2026-11-18T19:35:00+00:00,1.98,New York (16-21 UTC),Wednesday,against,against,calm,False
 pattern,bearish_engulfing,5m,short,2026-11-18T19:30:00+00:00,2026-11-18T19:35:00+00:00,-1.02,New York (16-21 UTC),Wednesday,with,with,calm,False
 rsi,RSI7 (20/80),15m,long,2026-11-18T19:30:00+00:00,2026-11-18T19:45:00+00:00,1.98,New York (16-21 UTC),Wednesday,against,against,normal,False
@@ -2416,11 +2416,11 @@ pattern,bearish_engulfing,5m,short,2026-11-18T20:45:00+00:00,2026-11-18T20:50:00
 ma,MA 5/30 cross,5m,long,2026-11-18T20:50:00+00:00,2026-11-18T20:55:00+00:00,-1.02,New York (16-21 UTC),Wednesday,against,against,calm,False
 pattern,doji,1h,long,2026-11-18T21:00:00+00:00,2026-11-18T22:00:00+00:00,-1.02,Late (21-24 UTC),Wednesday,against,against,normal,False
 pattern,doji,15m,short,2026-11-18T21:00:00+00:00,2026-11-18T21:15:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,normal,False
-pattern,doji,5m,long,2026-11-18T21:00:00+00:00,2026-11-18T21:05:00+00:00,1.98,Late (21-24 UTC),Wednesday,against,against,calm,False
+pattern,doji,5m,short,2026-11-18T21:00:00+00:00,2026-11-18T21:05:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
 pattern,doji,15m,long,2026-11-18T21:00:00+00:00,2026-11-18T21:15:00+00:00,1.98,Late (21-24 UTC),Wednesday,against,against,normal,False
 pattern,doji,1h,short,2026-11-18T21:00:00+00:00,2026-11-18T22:00:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,normal,False
 ma,MA 5/30 cross,5m,short,2026-11-18T21:00:00+00:00,2026-11-18T21:05:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
-pattern,doji,5m,short,2026-11-18T21:00:00+00:00,2026-11-18T21:05:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
+pattern,doji,5m,long,2026-11-18T21:00:00+00:00,2026-11-18T21:05:00+00:00,1.98,Late (21-24 UTC),Wednesday,against,against,calm,False
 pattern,three_white_soldiers,30m,long,2026-11-18T21:00:00+00:00,2026-11-18T21:30:00+00:00,-1.02,Late (21-24 UTC),Wednesday,against,against,normal,False
 pattern,bearish_engulfing,5m,short,2026-11-18T21:05:00+00:00,2026-11-18T21:10:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
 pattern,shooting_star,5m,short,2026-11-18T21:10:00+00:00,2026-11-18T21:15:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
@@ -2463,8 +2463,8 @@ rsi,RSI7 (20/80),5m,short,2026-11-18T23:20:00+00:00,2026-11-18T23:25:00+00:00,-1
 ma,MA 10/50 cross,5m,long,2026-11-18T23:20:00+00:00,2026-11-18T23:25:00+00:00,-1.02,Late (21-24 UTC),Wednesday,against,against,calm,False
 rsi,RSI14 (30/70),5m,short,2026-11-18T23:20:00+00:00,2026-11-18T23:25:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
 rsi,RSI7 (20/80),5m,short,2026-11-18T23:25:00+00:00,2026-11-18T23:30:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
-rsi,RSI7 (25/75),5m,short,2026-11-18T23:25:00+00:00,2026-11-18T23:30:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
 ma,MA 10/50 cross,5m,long,2026-11-18T23:25:00+00:00,2026-11-18T23:30:00+00:00,1.98,Late (21-24 UTC),Wednesday,against,against,calm,False
+rsi,RSI7 (25/75),5m,short,2026-11-18T23:25:00+00:00,2026-11-18T23:30:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
 rsi,RSI14 (30/70),5m,short,2026-11-18T23:30:00+00:00,2026-11-18T23:35:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
 pattern,three_white_soldiers,15m,long,2026-11-18T23:30:00+00:00,2026-11-18T23:45:00+00:00,-1.02,Late (21-24 UTC),Wednesday,against,against,calm,False
 rsi,RSI7 (30/70),15m,short,2026-11-18T23:30:00+00:00,2026-11-18T23:45:00+00:00,-1.02,Late (21-24 UTC),Wednesday,with,with,calm,False
@@ -2600,8 +2600,8 @@ pattern,three_white_soldiers,30m,long,2026-11-19T04:00:00+00:00,2026-11-19T04:30
 pattern,doji,5m,short,2026-11-19T04:05:00+00:00,2026-11-19T04:10:00+00:00,-1.02,Asia (00-07 UTC),Thursday,with,with,high,False
 ma,MA 5/30 cross,5m,long,2026-11-19T04:20:00+00:00,2026-11-19T04:25:00+00:00,1.98,Asia (00-07 UTC),Thursday,against,against,normal,False
 pattern,hammer,5m,long,2026-11-19T04:25:00+00:00,2026-11-19T04:30:00+00:00,1.98,Asia (00-07 UTC),Thursday,against,against,normal,False
-pattern,doji,5m,short,2026-11-19T04:30:00+00:00,2026-11-19T04:35:00+00:00,-1.02,Asia (00-07 UTC),Thursday,with,with,normal,False
 pattern,doji,5m,long,2026-11-19T04:30:00+00:00,2026-11-19T04:35:00+00:00,1.98,Asia (00-07 UTC),Thursday,against,against,normal,False
+pattern,doji,5m,short,2026-11-19T04:30:00+00:00,2026-11-19T04:35:00+00:00,-1.02,Asia (00-07 UTC),Thursday,with,with,normal,False
 ma,MA 10/30 cross,5m,long,2026-11-19T04:35:00+00:00,2026-11-19T04:40:00+00:00,1.98,Asia (00-07 UTC),Thursday,against,against,normal,False
 pattern,doji,15m,short,2026-11-19T04:45:00+00:00,2026-11-19T05:00:00+00:00,-1.02,Asia (00-07 UTC),Thursday,with,with,normal,False
 pattern,doji,15m,long,2026-11-19T04:45:00+00:00,2026-11-19T05:00:00+00:00,-1.02,Asia (00-07 UTC),Thursday,against,against,normal,False
@@ -2737,8 +2737,8 @@ ma,MA 5/30 cross,5m,short,2026-11-19T11:15:00+00:00,2026-11-19T11:20:00+00:00,1.
 pattern,doji,5m,long,2026-11-19T11:15:00+00:00,2026-11-19T11:20:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
 ma,MA 5/100 cross,5m,short,2026-11-19T11:20:00+00:00,2026-11-19T11:25:00+00:00,-1.02,London (07-12 UTC),Thursday,with,with,calm,False
 pattern,hammer,5m,long,2026-11-19T11:20:00+00:00,2026-11-19T11:25:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
-pattern,doji,5m,short,2026-11-19T11:20:00+00:00,2026-11-19T11:25:00+00:00,-1.02,London (07-12 UTC),Thursday,with,with,calm,False
 pattern,doji,5m,long,2026-11-19T11:20:00+00:00,2026-11-19T11:25:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
+pattern,doji,5m,short,2026-11-19T11:20:00+00:00,2026-11-19T11:25:00+00:00,-1.02,London (07-12 UTC),Thursday,with,with,calm,False
 pattern,bullish_engulfing,5m,long,2026-11-19T11:25:00+00:00,2026-11-19T11:30:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
 pattern,morning_star,5m,long,2026-11-19T11:25:00+00:00,2026-11-19T11:30:00+00:00,-1.02,London (07-12 UTC),Thursday,against,against,calm,False
 ma,MA 20/30 cross,15m,short,2026-11-19T11:30:00+00:00,2026-11-19T11:45:00+00:00,1.98,London (07-12 UTC),Thursday,with,with,normal,False
@@ -2970,8 +2970,8 @@ pattern,doji,5m,long,2026-11-19T21:40:00+00:00,2026-11-19T21:45:00+00:00,-1.02,L
 pattern,doji,5m,short,2026-11-19T21:40:00+00:00,2026-11-19T21:45:00+00:00,-1.02,Late (21-24 UTC),Thursday,with,with,normal,False
 pattern,doji,15m,short,2026-11-19T21:45:00+00:00,2026-11-19T22:00:00+00:00,1.98,Late (21-24 UTC),Thursday,with,with,normal,False
 pattern,doji,15m,long,2026-11-19T21:45:00+00:00,2026-11-19T22:00:00+00:00,-1.02,Late (21-24 UTC),Thursday,against,against,normal,False
-pattern,doji,5m,short,2026-11-19T21:50:00+00:00,2026-11-19T21:55:00+00:00,-1.02,Late (21-24 UTC),Thursday,with,with,normal,False
 pattern,doji,5m,long,2026-11-19T21:50:00+00:00,2026-11-19T21:55:00+00:00,-1.02,Late (21-24 UTC),Thursday,against,against,normal,False
+pattern,doji,5m,short,2026-11-19T21:50:00+00:00,2026-11-19T21:55:00+00:00,-1.02,Late (21-24 UTC),Thursday,with,with,normal,False
 rsi,RSI21 (25/75),1h,long,2026-11-19T23:00:00+00:00,2026-11-20T00:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 rsi,RSI14 (20/80),1h,long,2026-11-19T23:00:00+00:00,2026-11-20T00:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 rsi,RSI21 (30/70),5m,long,2026-11-19T23:05:00+00:00,2026-11-19T23:10:00+00:00,-1.02,Late (21-24 UTC),Thursday,against,against,high,False
@@ -3075,8 +3075,8 @@ pattern,bearish_engulfing,5m,short,2026-11-20T03:20:00+00:00,2026-11-20T03:25:00
 pattern,bullish_engulfing,15m,long,2026-11-20T03:30:00+00:00,2026-11-20T03:45:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,high,False
 pattern,bullish_engulfing,30m,long,2026-11-20T03:30:00+00:00,2026-11-20T04:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,high,False
 pattern,three_white_soldiers,5m,long,2026-11-20T03:35:00+00:00,2026-11-20T03:40:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,high,False
-pattern,bearish_engulfing,5m,short,2026-11-20T03:50:00+00:00,2026-11-20T03:55:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,high,False
 ma,MA 5/30 cross,5m,long,2026-11-20T03:50:00+00:00,2026-11-20T03:55:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,high,False
+pattern,bearish_engulfing,5m,short,2026-11-20T03:50:00+00:00,2026-11-20T03:55:00+00:00,1.98,Asia (00-07 UTC),Friday,with,with,high,False
 ma,MA 5/30 cross,5m,long,2026-11-20T03:55:00+00:00,2026-11-20T04:00:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
 rsi,RSI7 (30/70),30m,long,2026-11-20T04:00:00+00:00,2026-11-20T04:30:00+00:00,1.98,Asia (00-07 UTC),Friday,against,against,high,False
 ma,MA 10/30 cross,5m,long,2026-11-20T04:10:00+00:00,2026-11-20T04:15:00+00:00,-1.02,Asia (00-07 UTC),Friday,against,against,normal,False
@@ -3154,9 +3154,9 @@ rsi,RSI7 (30/70),5m,short,2026-11-20T07:50:00+00:00,2026-11-20T07:55:00+00:00,-1
 ma,MA 5/100 cross,5m,long,2026-11-20T07:55:00+00:00,2026-11-20T08:00:00+00:00,1.98,London (07-12 UTC),Friday,against,against,calm,False
 pattern,shooting_star,4h,short,2026-11-20T08:00:00+00:00,2026-11-20T12:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,with,with,high,False
 pattern,three_white_soldiers,15m,long,2026-11-20T08:00:00+00:00,2026-11-20T08:15:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,normal,False
-pattern,three_white_soldiers,1h,long,2026-11-20T08:00:00+00:00,2026-11-20T09:00:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,high,False
-rsi,RSI7 (30/70),5m,short,2026-11-20T08:00:00+00:00,2026-11-20T08:05:00+00:00,-1.02,London (07-12 UTC),Friday,with,with,calm,False
 rsi,RSI7 (30/70),15m,short,2026-11-20T08:00:00+00:00,2026-11-20T08:15:00+00:00,1.98,London (07-12 UTC),Friday,with,with,normal,False
+rsi,RSI7 (30/70),5m,short,2026-11-20T08:00:00+00:00,2026-11-20T08:05:00+00:00,-1.02,London (07-12 UTC),Friday,with,with,calm,False
+pattern,three_white_soldiers,1h,long,2026-11-20T08:00:00+00:00,2026-11-20T09:00:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,high,False
 pattern,three_white_soldiers,15m,long,2026-11-20T08:15:00+00:00,2026-11-20T08:30:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,normal,False
 rsi,RSI7 (20/80),15m,short,2026-11-20T08:15:00+00:00,2026-11-20T08:30:00+00:00,1.98,London (07-12 UTC),Friday,with,with,normal,False
 rsi,RSI7 (25/75),15m,short,2026-11-20T08:15:00+00:00,2026-11-20T08:30:00+00:00,1.98,London (07-12 UTC),Friday,with,with,normal,False
@@ -3195,8 +3195,8 @@ ma,MA 5/30 cross,5m,long,2026-11-20T10:30:00+00:00,2026-11-20T10:35:00+00:00,-1.
 pattern,double_bottom,15m,long,2026-11-20T10:30:00+00:00,2026-11-20T10:45:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,normal,False
 rsi,RSI7 (30/70),15m,short,2026-11-20T10:30:00+00:00,2026-11-20T10:45:00+00:00,1.98,London (07-12 UTC),Friday,with,with,normal,False
 pattern,double_bottom,5m,long,2026-11-20T10:30:00+00:00,2026-11-20T10:35:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,calm,False
-pattern,three_white_soldiers,15m,long,2026-11-20T10:30:00+00:00,2026-11-20T10:45:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,normal,False
 pattern,three_white_soldiers,5m,long,2026-11-20T10:30:00+00:00,2026-11-20T10:35:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,calm,False
+pattern,three_white_soldiers,15m,long,2026-11-20T10:30:00+00:00,2026-11-20T10:45:00+00:00,-1.02,London (07-12 UTC),Friday,against,against,normal,False
 rsi,RSI7 (30/70),5m,short,2026-11-20T10:30:00+00:00,2026-11-20T10:35:00+00:00,-1.02,London (07-12 UTC),Friday,with,with,calm,False
 rsi,RSI7 (20/80),5m,short,2026-11-20T10:35:00+00:00,2026-11-20T10:40:00+00:00,1.98,London (07-12 UTC),Friday,with,with,calm,False
 rsi,RSI7 (25/75),5m,short,2026-11-20T10:35:00+00:00,2026-11-20T10:40:00+00:00,1.98,London (07-12 UTC),Friday,with,with,calm,False
@@ -3285,8 +3285,8 @@ ma,MA 10/30 cross,5m,long,2026-11-20T14:30:00+00:00,2026-11-20T14:35:00+00:00,-1
 pattern,bullish_engulfing,30m,long,2026-11-20T14:30:00+00:00,2026-11-20T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,normal,False
 ma,MA 10/100 cross,5m,long,2026-11-20T14:35:00+00:00,2026-11-20T14:40:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,normal,False
 ma,MA 5/100 cross,5m,short,2026-11-20T14:40:00+00:00,2026-11-20T14:45:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,with,with,normal,False
-pattern,morning_star,15m,long,2026-11-20T14:45:00+00:00,2026-11-20T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,normal,False
 pattern,bullish_engulfing,15m,long,2026-11-20T14:45:00+00:00,2026-11-20T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,normal,False
+pattern,morning_star,15m,long,2026-11-20T14:45:00+00:00,2026-11-20T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,normal,False
 pattern,hammer,5m,long,2026-11-20T14:50:00+00:00,2026-11-20T14:55:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
 ma,MA 5/100 cross,5m,long,2026-11-20T14:55:00+00:00,2026-11-20T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
 pattern,bullish_engulfing,5m,long,2026-11-20T14:55:00+00:00,2026-11-20T15:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Friday,against,against,high,False
@@ -3467,16 +3467,16 @@ pattern,inverse_head_and_shoulders,5m,long,2026-11-22T23:50:00+00:00,2026-11-22T
 pattern,double_bottom,5m,long,2026-11-22T23:50:00+00:00,2026-11-22T23:55:00+00:00,1.98,Late (21-24 UTC),Sunday,against,against,high,False
 pattern,doji,5m,short,2026-11-22T23:55:00+00:00,2026-11-23T00:00:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,high,False
 pattern,doji,5m,long,2026-11-22T23:55:00+00:00,2026-11-23T00:00:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,high,False
-pattern,bearish_engulfing,15m,short,2026-11-23T00:00:00+00:00,2026-11-23T00:15:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,normal,False
 pattern,bearish_engulfing,30m,short,2026-11-23T00:00:00+00:00,2026-11-23T00:30:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,high,False
+pattern,bearish_engulfing,15m,short,2026-11-23T00:00:00+00:00,2026-11-23T00:15:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,normal,False
 pattern,three_black_crows,5m,short,2026-11-23T00:05:00+00:00,2026-11-23T00:10:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,high,False
 pattern,doji,5m,long,2026-11-23T00:10:00+00:00,2026-11-23T00:15:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,high,False
 pattern,three_black_crows,5m,short,2026-11-23T00:10:00+00:00,2026-11-23T00:15:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,high,False
 pattern,doji,5m,short,2026-11-23T00:10:00+00:00,2026-11-23T00:15:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,high,False
 ma,MA 20/30 cross,15m,long,2026-11-23T00:15:00+00:00,2026-11-23T00:30:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,normal,False
 pattern,doji,5m,short,2026-11-23T00:15:00+00:00,2026-11-23T00:20:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,normal,False
-pattern,doji,15m,short,2026-11-23T00:15:00+00:00,2026-11-23T00:30:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,normal,False
 pattern,doji,15m,long,2026-11-23T00:15:00+00:00,2026-11-23T00:30:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,normal,False
+pattern,doji,15m,short,2026-11-23T00:15:00+00:00,2026-11-23T00:30:00+00:00,-1.02,Asia (00-07 UTC),Monday,with,with,normal,False
 pattern,doji,5m,long,2026-11-23T00:15:00+00:00,2026-11-23T00:20:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,normal,False
 ma,MA 10/50 cross,15m,long,2026-11-23T00:15:00+00:00,2026-11-23T00:30:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,normal,False
 pattern,doji,30m,long,2026-11-23T00:30:00+00:00,2026-11-23T01:00:00+00:00,1.98,Asia (00-07 UTC),Monday,against,against,high,False
@@ -3910,8 +3910,8 @@ ma,MA 20/30 cross,15m,short,2026-11-23T20:30:00+00:00,2026-11-23T20:45:00+00:00,
 pattern,bearish_engulfing,30m,short,2026-11-23T20:30:00+00:00,2026-11-23T21:00:00+00:00,-1.02,Late (21-24 UTC),Monday,with,with,normal,False
 pattern,bearish_engulfing,5m,short,2026-11-23T20:30:00+00:00,2026-11-23T20:35:00+00:00,1.98,New York (16-21 UTC),Monday,with,with,calm,False
 pattern,bearish_engulfing,15m,short,2026-11-23T20:30:00+00:00,2026-11-23T20:45:00+00:00,-1.02,New York (16-21 UTC),Monday,with,with,calm,False
-pattern,doji,5m,long,2026-11-23T20:40:00+00:00,2026-11-23T20:45:00+00:00,-1.02,New York (16-21 UTC),Monday,against,against,calm,False
 pattern,doji,5m,short,2026-11-23T20:40:00+00:00,2026-11-23T20:45:00+00:00,1.98,New York (16-21 UTC),Monday,with,with,calm,False
+pattern,doji,5m,long,2026-11-23T20:40:00+00:00,2026-11-23T20:45:00+00:00,-1.02,New York (16-21 UTC),Monday,against,against,calm,False
 pattern,bearish_engulfing,5m,short,2026-11-23T20:45:00+00:00,2026-11-23T20:50:00+00:00,1.98,New York (16-21 UTC),Monday,with,with,calm,False
 pattern,head_and_shoulders,5m,short,2026-11-23T20:45:00+00:00,2026-11-23T20:50:00+00:00,1.98,New York (16-21 UTC),Monday,with,with,calm,False
 ma,MA 5/50 cross,15m,short,2026-11-23T20:45:00+00:00,2026-11-23T21:00:00+00:00,-1.02,Late (21-24 UTC),Monday,with,with,calm,False
@@ -4377,9 +4377,9 @@ ma,MA 20/50 cross,1h,short,2026-11-24T20:00:00+00:00,2026-11-24T21:00:00+00:00,1
 pattern,three_black_crows,4h,short,2026-11-24T20:00:00+00:00,2026-11-25T00:00:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,with,with,normal,False
 pattern,hammer,15m,long,2026-11-24T20:00:00+00:00,2026-11-24T20:15:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,calm,False
 pattern,doji,5m,long,2026-11-24T20:00:00+00:00,2026-11-24T20:05:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,calm,False
-rsi,RSI7 (30/70),5m,long,2026-11-24T20:05:00+00:00,2026-11-24T20:10:00+00:00,1.98,New York (16-21 UTC),Tuesday,against,against,calm,False
-pattern,bearish_engulfing,5m,short,2026-11-24T20:05:00+00:00,2026-11-24T20:10:00+00:00,-1.02,New York (16-21 UTC),Tuesday,with,with,calm,False
 pattern,double_top,5m,short,2026-11-24T20:05:00+00:00,2026-11-24T20:10:00+00:00,-1.02,New York (16-21 UTC),Tuesday,with,with,calm,False
+pattern,bearish_engulfing,5m,short,2026-11-24T20:05:00+00:00,2026-11-24T20:10:00+00:00,-1.02,New York (16-21 UTC),Tuesday,with,with,calm,False
+rsi,RSI7 (30/70),5m,long,2026-11-24T20:05:00+00:00,2026-11-24T20:10:00+00:00,1.98,New York (16-21 UTC),Tuesday,against,against,calm,False
 pattern,bullish_engulfing,5m,long,2026-11-24T20:10:00+00:00,2026-11-24T20:15:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,calm,False
 pattern,bearish_engulfing,15m,short,2026-11-24T20:15:00+00:00,2026-11-24T20:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,with,with,calm,False
 rsi,RSI7 (30/70),15m,long,2026-11-24T20:15:00+00:00,2026-11-24T20:30:00+00:00,-1.02,New York (16-21 UTC),Tuesday,against,against,calm,False
@@ -4464,8 +4464,8 @@ pattern,double_top,5m,short,2026-11-25T01:15:00+00:00,2026-11-25T01:20:00+00:00,
 rsi,RSI7 (30/70),5m,long,2026-11-25T01:20:00+00:00,2026-11-25T01:25:00+00:00,1.98,Asia (00-07 UTC),Wednesday,against,against,high,False
 pattern,bullish_engulfing,5m,long,2026-11-25T01:25:00+00:00,2026-11-25T01:30:00+00:00,1.98,Asia (00-07 UTC),Wednesday,against,against,high,False
 pattern,hammer,5m,long,2026-11-25T01:30:00+00:00,2026-11-25T01:35:00+00:00,1.98,Asia (00-07 UTC),Wednesday,against,against,high,False
-pattern,doji,5m,long,2026-11-25T01:35:00+00:00,2026-11-25T01:40:00+00:00,1.98,Asia (00-07 UTC),Wednesday,against,against,high,False
 pattern,doji,5m,short,2026-11-25T01:35:00+00:00,2026-11-25T01:40:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,with,with,high,False
+pattern,doji,5m,long,2026-11-25T01:35:00+00:00,2026-11-25T01:40:00+00:00,1.98,Asia (00-07 UTC),Wednesday,against,against,high,False
 pattern,shooting_star,5m,short,2026-11-25T01:35:00+00:00,2026-11-25T01:40:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,with,with,high,False
 pattern,three_white_soldiers,5m,long,2026-11-25T01:45:00+00:00,2026-11-25T01:50:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
 pattern,bullish_engulfing,5m,long,2026-11-25T01:50:00+00:00,2026-11-25T01:55:00+00:00,-1.02,Asia (00-07 UTC),Wednesday,against,against,high,False
@@ -4629,8 +4629,8 @@ pattern,evening_star,5m,short,2026-11-25T09:10:00+00:00,2026-11-25T09:15:00+00:0
 ma,MA 20/100 cross,5m,long,2026-11-25T09:15:00+00:00,2026-11-25T09:20:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
 pattern,doji,5m,short,2026-11-25T09:35:00+00:00,2026-11-25T09:40:00+00:00,1.98,London (07-12 UTC),Wednesday,with,with,normal,False
 pattern,doji,5m,long,2026-11-25T09:35:00+00:00,2026-11-25T09:40:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
-pattern,doji,5m,short,2026-11-25T09:40:00+00:00,2026-11-25T09:45:00+00:00,-1.02,London (07-12 UTC),Wednesday,with,with,normal,False
 pattern,doji,5m,long,2026-11-25T09:40:00+00:00,2026-11-25T09:45:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
+pattern,doji,5m,short,2026-11-25T09:40:00+00:00,2026-11-25T09:45:00+00:00,-1.02,London (07-12 UTC),Wednesday,with,with,normal,False
 ma,MA 10/30 cross,15m,long,2026-11-25T09:45:00+00:00,2026-11-25T10:00:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
 pattern,three_white_soldiers,5m,long,2026-11-25T09:45:00+00:00,2026-11-25T09:50:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
 pattern,hammer,15m,long,2026-11-25T09:45:00+00:00,2026-11-25T10:00:00+00:00,-1.02,London (07-12 UTC),Wednesday,against,against,normal,False
@@ -4725,8 +4725,8 @@ ma,MA 5/30 cross,30m,short,2026-11-25T13:00:00+00:00,2026-11-25T13:30:00+00:00,1
 pattern,double_top,1h,short,2026-11-25T13:00:00+00:00,2026-11-25T14:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Wednesday,with,with,normal,False
 pattern,bearish_engulfing,1h,short,2026-11-25T13:00:00+00:00,2026-11-25T14:00:00+00:00,-1.02,London/NY overlap (12-16 UTC),Wednesday,with,with,normal,False
 ma,MA 5/30 cross,5m,short,2026-11-25T13:00:00+00:00,2026-11-25T13:05:00+00:00,1.98,London/NY overlap (12-16 UTC),Wednesday,with,with,high,False
-pattern,doji,5m,long,2026-11-25T13:10:00+00:00,2026-11-25T13:15:00+00:00,-1.02,London/NY overlap (12-16 UTC),Wednesday,against,against,high,False
 pattern,three_black_crows,5m,short,2026-11-25T13:10:00+00:00,2026-11-25T13:15:00+00:00,1.98,London/NY overlap (12-16 UTC),Wednesday,with,with,high,False
+pattern,doji,5m,long,2026-11-25T13:10:00+00:00,2026-11-25T13:15:00+00:00,-1.02,London/NY overlap (12-16 UTC),Wednesday,against,against,high,False
 pattern,doji,5m,short,2026-11-25T13:10:00+00:00,2026-11-25T13:15:00+00:00,1.98,London/NY overlap (12-16 UTC),Wednesday,with,with,high,False
 ma,MA 10/50 cross,15m,short,2026-11-25T13:15:00+00:00,2026-11-25T13:30:00+00:00,1.98,London/NY overlap (12-16 UTC),Wednesday,with,with,normal,False
 pattern,three_black_crows,15m,short,2026-11-25T13:15:00+00:00,2026-11-25T13:30:00+00:00,1.98,London/NY overlap (12-16 UTC),Wednesday,with,with,normal,False
